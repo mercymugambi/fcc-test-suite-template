@@ -33,6 +33,15 @@
         <label for="role" id="label-role">Which option best describes you?</label>
          
         <!-- Dropdown options -->
+        <select name="role" id="role">
+          <option value="student">Select the current role</option>
+          <option value="student">Student</option>
+          <option value="intern">Full time job</option>
+          <option value="professional">Full time Learner</option>
+          <option value="student">Prefer not to say</option>
+          <option value="other">Other</option>
+      </select>
+
         
     </div>
 
@@ -96,11 +105,15 @@
             <input type="checkbox"
                    name="inp">Forumns</input></label>
     </div>
+    <div class="form-control">
+      <label for="comment">
+          Any comments or suggestions
+      </label>
 
-    
-
-    
-        
+      <textarea name="comment" id="comment"
+            placeholder="Enter your comment here">
+        </textarea>
+    </div>  
     <button type="submit" value="submit">
         Submit
     </button>
