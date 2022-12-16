@@ -4,11 +4,110 @@
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
+    
   </head>
-
+  
   <body>
+   <form id="form">
+    <div class="form-control">
+        <label for="name" id="label-name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" />
+    </div>
 
+    <div class="form-control">
+        <label for="email" id="label-email">Email</label>
 
+        <!-- Input Type Email-->
+        <input type="email" id="email" placeholder="Enter your email" />
+    </div>
+
+    <div class="form-control">
+        <label for="age" id="label-age">Age(Optional)</label>
+
+        <!-- Input Type Text -->
+        <input type="text" id="age" placeholder="age" />
+    </div>
+
+    <div class="form-control">
+        <label for="role" id="label-role">Which option best describes you?</label>
+         
+        <!-- Dropdown options -->
+        
+    </div>
+
+    <div class="form-control">
+        <label>
+            Would you recommend freecodecamp
+            to a friend?
+        </label>
+
+        <!-- Input Type Radio Button -->
+        <label for="recommed-1">
+            <input type="radio"
+                   id="recommed-1"
+                   name="recommed">definately</input>
+        </label>
+        <label for="recommed-2">
+            <input type="radio"
+                   id="recommed-2"
+                   name="recommed">Maybe</input>
+        </label>
+        <label for="recommed-3">
+            <input type="radio"
+                   id="recommed-3"
+                   name="recommed">not Sure</input>
+        </label>
+    </div>
+
+    <div class="form-control">
+        <label>What would you like to see improved?
+            <small>(Check all that apply)</small>
+        </label>
+        <!-- Input Type Checkbox -->
+        <label for="inp-1">
+            <input type="checkbox"
+                   name="inp">Front-end projects</input></label>
+        <label for="inp-2">
+            <input type="checkbox"
+                   name="inp">Backend Projects</input></label>
+        <label for="inp-3">
+            <input type="checkbox"
+                   name="inp">Data visualization</input></label>
+        <label for="inp-4">
+            <input type="checkbox"
+                   name="inp">Open Source community</input></label>
+        <label for="inp-5">
+            <input type="checkbox"
+                   name="inp">Challenges</input></label>
+        <label for="inp-6">
+            <input type="checkbox"
+                   name="inp">Gitter Room</input></label>
+        <label for="inp-7">
+            <input type="checkbox"
+                   name="inp">Videos</input></label>
+        <label for="inp-7">
+            <input type="checkbox"
+                   name="inp">City Meetings</input></label>
+        <label for="inp-7">
+            <input type="checkbox"
+                   name="inp">Wiki</input></label>
+        <label for="inp-7">
+            <input type="checkbox"
+                   name="inp">Forumns</input></label>
+    </div>
+
+    
+
+    
+        
+    <button type="submit" value="submit">
+        Submit
+    </button>
+</form>
+    </div>
+    
+    
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!--
